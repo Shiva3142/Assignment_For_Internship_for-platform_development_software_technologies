@@ -31,7 +31,6 @@ dotenv.config({
     path: "./config.env",
 });
 const Database = process.env.DATABASE;
-const Password = process.env.PASSWORD;
 let port = process.env.PORT || 80;
 
 mongoose.connect(Database, {
