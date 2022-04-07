@@ -1,0 +1,75 @@
+header{
+    background: #1e90ff;
+
+}
+.desktopHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.8em;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+.mobileHeader {
+    display: none;
+}
+
+.logo{
+    font-size: 3rem;
+    padding-left: 20px;
+}
+.logo a{
+    color: white;
+}
+.logo i{
+    font-size: 0.6em;
+    margin: 20px;
+}
+.desktopHeader nav{
+    min-width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.65em;
+}
+.desktopHeader nav a{
+    color: white;
+    margin: 10px;
+}
+#mobileNav{
+    position: fixed;
+    left:-100vw;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1e90ff;
+    transition: all 1s;
+}
+
+#mobileNav a{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+#mobileNav i{
+    font-size: 2.5em;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+@media(max-width:768px) {
+    .desktopHeader{
+        display: none;
+    }
+    .mobileHeader{
+        display: flex;
+    }
+    .logo a{
+        font-size: 0.7em;
+    }
+}

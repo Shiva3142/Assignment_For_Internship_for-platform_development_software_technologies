@@ -1,0 +1,55 @@
+.todoFormContainer{
+    padding: 30px;
+}
+
+
+.todoFormContainer form{
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid aquamarine;
+    display: flex;
+}
+.todoFormContainer form input{
+    width: 100%;
+    padding: 10px;
+    
+}
+.todoFormContainer form button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.todoItems{
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.todoItem{
+    max-width: 300px;
+    font-size: 0.7em;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    border-radius: 10px;
+}
+.todobuuttonContainer{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+.todobuuttonContainer button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.todobuuttonContainer button:first-child{
+    background-color: yellow;
+}
+.todobuuttonContainer button:last-child{
+    background-color: red;
+}

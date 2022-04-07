@@ -1,0 +1,53 @@
+.homepageContainer {
+    min-height: 90vh;
+    background: url("https://cdn.pixabay.com/photo/2013/09/22/19/15/brick-wall-185086_960_720.jpg")
+        no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomecard {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .welcomecard {
+        font-size: 0.5em;
+    }
+}
+.manageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 30px;
+    margin: 10px auto;
+}
+.update{
+    min-width: 300px;
+    margin-bottom: 50px;
+}
+.update form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.update form input{
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+}
+.update button{
+    padding: 5px;
+    background-color:coral;
+}
